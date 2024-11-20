@@ -9,20 +9,20 @@ header{
     padding: 20px;
     font-size: 40px;
     color: rgb(156, 5, 226);
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 section {
     background: rgb(82, 62, 119) ;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
    
 }
 .chamada-texto {
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
     font-size: 25px;
  }
