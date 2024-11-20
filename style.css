@@ -1,26 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body, html {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .stars {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 60%, rgba(0,0,0,1) 100%);
-    animation: moveBackground 100s infinite linear;
-    z-index: -1;
-  }
-  
+body{
+    color: rgb(255, 255, 255);
+    background: rgb(74, 69, 129);
+    margin: 8px;
+    font-size: 32px;
+}
+header{
+    border-bottom: solid 10px rgb(100, 83, 160);
+    padding: 20px;
+    font-size: 64px;
+    color: rgb(156, 5, 226);
+    margin-right: 10%;
+    margin-left: 10%;
+}
+section {
+    background: rgb(82, 62, 119) ;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+   
+}
+.chamada-texto {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 25px;
+ }
+
   
   
   
