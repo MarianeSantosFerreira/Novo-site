@@ -2,12 +2,12 @@ body{
     color: rgb(255, 255, 255);
     background: rgb(74, 69, 129);
     margin: 4px;
-    font-size: 64px;
+    font-size: 32px;
 }
 header{
     border-bottom: solid 2px rgb(56, 24, 173);
     padding: 20px;
-    font-size: 64px;
+    font-size: 32px;
     color: rgb(156, 5, 226);
 }
 section {
@@ -19,5 +19,5 @@ section {
 }
 .chamada-texto {
     margin-right: 20%;
-    font-size: 32px;
+    font-size: 25px;
  }
