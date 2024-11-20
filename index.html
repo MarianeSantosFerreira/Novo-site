@@ -43,6 +43,29 @@
                 Em suma, a ficção científica é um gênero que nos convida a refletir sobre o futuro e suas possibilidades, ao mesmo tempo que critica os rumos que a ciência e a tecnologia podem tomar. Ele nos ajuda a entender as complexas interações entre ciência, ética e sociedade, desafiando-nos a pensar sobre o impacto de nossas escolhas atuais para as gerações futuras.</p>
         </div>
 </body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 60%, rgba(0,0,0,1) 100%);
+    animation: moveBackground 100s infinite linear;
+    z-index: -1;
+  }
+  
 </html>
 
 
