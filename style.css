@@ -27,23 +27,4 @@ section {
     margin-left: 10%;
     font-size: 25px;
  }
- document.addEventListener("DOMContentLoaded", function() {
-    const starsContainer = document.querySelector('.stars');
-    
-    // Função para gerar estrelas
-    function createStars() {
-      const starCount = 200;
-      for (let i = 0; i < starCount; i++) {
-        const star = document.createElement('div');
-        star.classList.add('star');
-        // Posições aleatórias para as estrelas
-        star.style.left = `${Math.random() * 100}vw`;
-        star.style.top = `${Math.random() * 100}vh`;
-        star.style.animationDuration = `${Math.random() * 1.5 + 1.5}s`; // Twinkling effect
-        starsContainer.appendChild(star);
-      }
-    }
-  
-    createStars();
-  });
   
