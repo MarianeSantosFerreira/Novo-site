@@ -1,16 +1,17 @@
 body{
-    color: rgb(110, 167, 218);
-    background: rgb(103, 97, 155);
+    color: rgb(255, 255, 255);
+    background: rgb(74, 69, 129);
     margin: 4px;
+    font-size: 64px;
 }
 header{
     border-bottom: solid 2px rgb(56, 24, 173);
     padding: 20px;
     font-size: 64px;
-    color: fuchsia;
+    color: rgb(156, 5, 226);
 }
 section {
-    background: rgb(140, 118, 180) ;
+    background: rgb(82, 62, 119) ;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -18,4 +19,5 @@ section {
 }
 .chamada-texto {
     margin-right: 20%;
+    font-size: 64px;
  }
